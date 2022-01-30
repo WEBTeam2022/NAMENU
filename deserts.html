@@ -1,134 +1,164 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?
-    family=Cardo:400i|Open*Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/319659cf87.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--CSS-->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/chef%20(1).png">
+    <!---Device--->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--Bootstrap Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
     <title>NaMenu</title>
+    <link rel="icon" href="fas fa-book-open">
 </head>
+
 <body>
-<header class="header">
-    <div class="container">
-        <div class ="header_inner">
-            <div class ="header_logo">
-                <img src ="images/chef%20(1).png" alt="">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <a class="navbar-brand" href="#"> <i class="fas fa-book-open"></i> NaMenu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="meat_dishes.html">Meat Dishes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Desserts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vegans.html">Vegetarian</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!----intro--->
+    <div class="intro">
+        <div class="container">
+            <div class="intro-inner">
+                <h1 class="intro-title">Desserts</h1>
+                <h1 class="intro_subtitle">"Whether you need the perfect recipe for steak, chicken, or a slow cooked stew, we have meaty recipes for every occasion".</h1>
             </div>
-            <nav class ="nav">
-                <a class ="active" href="index.html">Home</a>
-                <a class ="nav-link" href="contact.html">Contact</a>
-                <a class ="nav-link" href='meat_dishes.html'>Meat dishes</a>
-                <a class ="nav-link" href='deserts.html'>Desserts</a>
-                <a class ="nav-link" href='vegans.html'>Vegetarian</a>
-            </nav>
         </div>
     </div>
-</header>
-<!----intro--->
-<div class ="intro">
-    <div class="container">
-        <div class ="intro-inner">
-            <h1 class="intro-title">Desserts</h1>
-            <h1 class ="intro_subtitle">"Whether you need the perfect recipe for steak, chicken, or a slow cooked stew, we have meaty recipes for every occasion".</h1>
+
+    <!--Works--->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/pecan-chocolate-bread-and-butter-pudding-137408-2.jpg" height="350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Pecan chocolate bread and butter pudding</div>
+                    <div class="works-text">This chocolate bread and butter pudding makes use of any leftover bread.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/baked-ricotta-cake-136671-1.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Baked ricotta cake</div>
+                    <div class="works-text">Ricotta is fantastic in desserts, and this cake is no exception. Begin this recipe 1 day ahead.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/pecan-baklava-roll-138350-1.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Pecan baklava rolls</div>
+                    <div class="works-text">Bring the Middle Eastern sweets counter to your home with Michael Rantissi's pecan baklava rolls.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/easy-peasy-lemon-meringue-pie-139330-2.jpg" height="350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">lemon meringue pie</div>
+                    <div class="works-text">You will need a kitchen blowtorch for this delicious dessert recipe. This is an edited extract from A Table for Friends: The Art of Cooking for Two or Twenty by Skye McAlpine.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/coconut-yoghurt-cake-137201-1.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Coconut yoghurt cake</div>
+                    <div class="works-text">Zero waste tip: "When it comes to storing perishables like dairy, the freezer is your best friends. Milk and yoghurt can be stored in ice cube trays and popped out to use in smoothies." - Ronni Kahn.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/del0420_wicke10-133507-1.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">ginger mud cake</div>
+                    <div class="works-text">“This cake melt-and-mix white choc and ginger mud cake is especially good served warm,” says Phoebe Wood.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/burnt-butter-almond-and-honey-cake-135325-2.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Burnt butter, almond and honey cake</div>
+                    <div class="works-text">This gluten-free cake is the perfect answer to any afternoon tea questions.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/tart-al-limone-136586-1.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Tart al limone</div>
+                    <div class="works-text">Citrus and dessert, a match made in Italy. Begin this recipe 4 hours ahead. You will need a kitchen thermometer.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="meat_dishes/Chicken-Meatballs-in-Mushroom-Sauce-2.jpg" height="350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Meatballs with creamy mushrooms & mash</div>
+                    <div class="works-text">Serve up this crowd-pleasing meal of meatballs in a creamy mushroom and thyme sauce. Enjoy with green veg and mash for a delicious family dinner.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/chocolate-and-ginger-teacake-with-cream-cheese-frosting-134624-2.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Chocolate and ginger teacake</div>
+                    <div class="works-text">“Ginger, tea and dark chocolate are perfect partners for this rich teacake,” says Lucy Busuttil.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/banoffee-cream-pudding-with-white-choc-crumble-128938-1.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Banoffee cream pudding with white choc crumble</div>
+                    <div class="works-text">“Make sure the baking dish for the pudding fits inside a larger, high-sided pan for the water bath. Begin this recipe at least four hours ahead," says Phoebe Wood.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="desrts/sticky-ginger-pudding-133537-2.jpg" height="350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Sticky ginger pudding</div>
+                    <div class="works-text">You can never beat a pudding, unless it's spiced with ginger. And, don't forget the cream.</div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<!--Works--->
-<div class ="works">
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/pecan-chocolate-bread-and-butter-pudding-137408-2.jpg" height="350" alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Pecan chocolate bread and butter pudding</div>
-            <div class="works-text">This chocolate bread and butter pudding makes use of any leftover bread.</div>
+
+    <!---Footer---->
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright-text">
+                <div>Made with love by </div>
+                <div>the WEB.2022 team</div>
+            </div>
         </div>
     </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/baked-ricotta-cake-136671-1.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Baked ricotta cake</div>
-            <div class="works-text">Ricotta is fantastic in desserts, and this cake is no exception. Begin this recipe 1 day ahead.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/pecan-baklava-roll-138350-1.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Pecan baklava rolls</div>
-            <div class="works-text">Bring the Middle Eastern sweets counter to your home with Michael Rantissi's pecan baklava rolls.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/easy-peasy-lemon-meringue-pie-139330-2.jpg" height="350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">lemon meringue pie</div>
-            <div class="works-text">You will need a kitchen blowtorch for this delicious dessert recipe. This is an edited extract from A Table for Friends: The Art of Cooking for Two or Twenty by Skye McAlpine.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/coconut-yoghurt-cake-137201-1.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Coconut yoghurt cake</div>
-            <div class="works-text">Zero waste tip: "When it comes to storing perishables like dairy, the freezer is your best friends. Milk and yoghurt can be stored in ice cube trays and popped out to use in smoothies." - Ronni Kahn.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/del0420_wicke10-133507-1.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">ginger mud cake</div>
-            <div class="works-text">“This cake melt-and-mix white choc and ginger mud cake is especially good served warm,” says Phoebe Wood.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/burnt-butter-almond-and-honey-cake-135325-2.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Burnt butter, almond and honey cake</div>
-            <div class="works-text">This gluten-free cake is the perfect answer to any afternoon tea questions.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/tart-al-limone-136586-1.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Tart al limone</div>
-            <div class="works-text">Citrus and dessert, a match made in Italy. Begin this recipe 4 hours ahead. You will need a kitchen thermometer.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="meat_dishes/Chicken-Meatballs-in-Mushroom-Sauce-2.jpg" height="350" alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Meatballs with creamy mushrooms & mash</div>
-            <div class="works-text">Serve up this crowd-pleasing meal of meatballs in a creamy mushroom and thyme sauce. Enjoy with green veg and mash for a delicious family dinner.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/chocolate-and-ginger-teacake-with-cream-cheese-frosting-134624-2.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Chocolate and ginger teacake</div>
-            <div class="works-text">“Ginger, tea and dark chocolate are perfect partners for this rich teacake,” says Lucy Busuttil.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/banoffee-cream-pudding-with-white-choc-crumble-128938-1.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Banoffee cream pudding with white choc crumble</div>
-            <div class="works-text">“Make sure the baking dish for the pudding fits inside a larger, high-sided pan for the water bath. Begin this recipe at least four hours ahead," says Phoebe Wood.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="desrts/sticky-ginger-pudding-133537-2.jpg" height="350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Sticky ginger pudding</div>
-            <div class="works-text">You can never beat a pudding, unless it's spiced with ginger. And, don't forget the cream.</div>
-        </div>
-    </div>
-</div>
-<!---Footer---->
-<div class ="copyright">
-    <div class="container">
-        <div class="copyright-text">
-            <div>Made with love by </div>
-            <div>the WEB.2022 team</div>
-        </div>
-    </div>
-</div>
 </body>
+
 </html>
