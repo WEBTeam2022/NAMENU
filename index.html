@@ -1,222 +1,298 @@
 <!doctype html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?
-    family=Cardo:400i|Open*Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/319659cf87.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!--CSS-->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/chef%20(1).png">
+
+    <!---Device--->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!--Bootstrap Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
     <title>NaMenu</title>
+    <link rel="icon" href="fas fa-book-open">
 </head>
+
 <body>
-<header class="header">
-    <div class="container">
-        <div class ="header_inner">
-            <div class ="header_logo">
-                <img src ="images/chef%20(1).png" alt="">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <a class="navbar-brand" href="#"> <i class="fas fa-book-open"></i> NaMenu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="meat_dishes.html">Meat Dishes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deserts.html">Desserts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vegans.html">Vegetarian</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!----intro--->
+    <div class="intro">
+        <div class="container">
+            <div class="intro-inner">
+                <h1 class="intro-title">NaMenu</h1>
+                <h2 class="intro-title1">"There is no love more sincere than the love of food".</h2>
+                <h3 class="intro_subtitle"> The best culinary website</h3>
+                <button type="button" class="btn btn-danger  btn-lg "> <i class="fab fa-instagram"></i>   Our Instagram</button>
+
             </div>
-            <nav class ="nav">
-                <a class ="active" href="index.html">Home</a>
-                <a class ="nav-link" href="contact.html">Contact</a>
-                <a class ="nav-link" href='meat_dishes.html'>Meat dishes</a>
-                <a class ="nav-link" href='deserts.html'>Desserts</a>
-                <a class ="nav-link" href='vegans.html'>Vegetarian</a>
-            </nav>
         </div>
     </div>
-</header>
-<!----intro--->
-<div class ="intro">
-    <div class="container">
-        <div class ="intro-inner">
-            <h1 class="intro-title">NaMenu</h1>
-            <h2 class ="intro-title1">"There is no love more sincere than the love of food".</h2>
-            <h3 class ="intro_subtitle"> The best culinary website</h3>
-        </div>
-    </div>
-</div>
-<!---Features---->
-<div class ="container">
-    <div class="features">
-        <div class="features_item">
-            <img class="features_icon" src="images/transparency%20(1).png" alt="">
-            <h4 class="features_title">Quick search</h4>
-            <div class="features_text">A quick search for the right dishes is the main criterion for a good website.</div>
-        </div>
-        <div class="features_item">
-            <img class="features_icon" src="images/chef.png" alt="">
-            <h4 class="features_title">Author's dishes</h4>
-            <div class="features_text">Surprise your guests with unusual dishes.</div>
-        </div>
-        <div class="features_item">
-            <img class="features_icon" src="images/vegetables.png" alt="">
-            <h4 class="features_title"> Vegetarian dishes</h4>
-            <div class="features_text">We take care of all our users and offer a vegetarian menu.</div>
-        </div>
-        <div class="features_item">
-            <img class="features_icon" src="images/frittata.png" alt="">
-            <h4 class="features_title"> Individual calorie counting</h4>
-            <div class="features_text">Eating right is now easier with our website.</div>
-        </div>
-        <div class="features_item">
-            <img class="features_icon" src="images/book.png" alt="">
-            <h4 class="features_title"> Detailed description</h4>
-            <div class="features_text">Even the smallest users will easily find what they were looking for.</div>
-        </div>
-        <div class="features_item">
-            <img class="features_icon" src="images/cake.png" alt="">
-            <h4 class="features_title"> The most delicious desserts from our confectioners</h4>
-            <div class="features_text">The meal is not finished without dessert :)</div>
-        </div>
-    </div><!-----/Feauters--------->
-</div><!--/Container---->
-<!--Works--->
-<div class ="works">
-    <div class ="works-item">
-        <img class ="works-photo"src="images/p9.jpg" height="350" alt="">
-        <div class ="works-contend">
-            <div class ="works-title">NaMenu</div>
-            <div class="works-text">There is no love more sincere than the love of food</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="images/1 (2).jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">NaMenu</div>
-            <div class="works-text">There is no love more sincere than the love of food</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="images/p7.jpg" height=" 350"alt="">
-            <div class ="works-contend">
-                <div class ="works-title">NaMenu</div>
-                <div class="works-text">There is no love more sincere than the love of food</div>
+
+    <!---Features---->
+    <section id="features">
+        <div class="row">
+            <div class="feature-box col-lg-4 col-md-6 col-sm-12 col-12">
+                <i class="fas fa-mouse-pointer fa-4x icon "></i>
+                <h4>Quick search</h4>
+                <p>A quick search for the right dishes is the main criterion for a good website</p>
             </div>
+
+            <div class="feature-box col-lg-4 col-md-6 col-sm-12 col-12">
+                <i class="fas fa-cookie fa-4x icon "></i>
+                <h4>Author's dishes</h4>
+                <p>Surprise your guests with unusual dishes</p>
             </div>
-            <div class ="works-item">
-                <img class ="works-photo"src="images/p1.jpg" height="350"alt="">
-                <div class ="works-contend">
-                    <div class ="works-title">NaMenu</div>
+
+            <div class="feature-box col-lg-4 col-md-6 col-sm-12 col-12">
+                <i class="fas fa-apple-alt fa-4x icon"></i>
+                <h4>Vegetarian dishes</h4>
+                <p>We take care of all our users and offer a vegetarian menu</p>
+            </div>
+
+            <div class="feature-box col-lg-4 col-md-6 col-sm-12 col-12">
+                <i class="fas fa-balance-scale fa-4x icon"></i>
+                <h4>Individual calorie counting</h4>
+                <p>Eating right is now easier with our website</p>
+            </div>
+
+            <div class="feature-box col-lg-4 col-md-6 col-sm-12 col-12">
+                <i class="fas fa-book-open  fa-4x icon"></i>
+                <h4>Detailed description</h4>
+                <p>Even the smallest users will easily find what they were looking for</p>
+            </div>
+            <div class="feature-box col-lg-4 col-md-6 col-sm-12 col-12">
+                <i class="fas fa-birthday-cake  fa-4x icon"></i>
+                <h4>The most delicious desserts from our confectioners</h4>
+                <p>The meal is not finished without dessert :)</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Works--->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="images/p9.jpg" height="350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">NaMenu</div>
                     <div class="works-text">There is no love more sincere than the love of food</div>
-                    </div>
                 </div>
-                <div class ="works-item">
-                    <img class ="works-photo"src="images/p5.jpg" height=" 350"alt="">
-                    <div class ="works-contend">
-                        <div class ="works-title">NaMenu</div>
-                        <div class="works-text">There is no love more sincere than the love of food</div>
-                    </div>
-                </div>
-                <div class ="works-item">
-                    <img class ="works-photo"src="images/p4.jpg" height=" 350"alt="">
-                    <div class ="works-contend">
-                        <div class ="works-title">NaMenu</div>
-                <div class="works-text">There is no love more sincere than the love of food</div>
             </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="images/p6.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">NaMenu</div>
-            <div class="works-text">There is no love more sincere than the love of food</div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="images/1 (2).jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">NaMenu</div>
+                    <div class="works-text">There is no love more sincere than the love of food</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="images/p7.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">NaMenu</div>
+                    <div class="works-text">There is no love more sincere than the love of food</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="images/p1.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">NaMenu</div>
+                    <div class="works-text">There is no love more sincere than the love of food</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="images/p5.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">NaMenu</div>
+                    <div class="works-text">There is no love more sincere than the love of food</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="images/p4.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">NaMenu</div>
+                    <div class="works-text">There is no love more sincere than the love of food</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-6 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="images/p6.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">NaMenu</div>
+                    <div class="works-text">There is no love more sincere than the love of food</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-6 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="images/p3.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">NaMenu</div>
+                    <div class="works-text">There is no love more sincere than the love of food</div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="images/p3.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">NaMenu</div>
-            <div class="works-text">There is no love more sincere than the love of food</div>
-        </div>
-    </div>
-</div><!---/Works --->
-<!--Team---->
-<div class="team">
-    <div class="container">
-        <div class ="team-inner">
-            <div class ="team-item">
-                <img class ="team-photo" src="images/Bahtiar.png" height= "270" weight ="270" alt="">
-                <div class ="team-name">Baktiyar Khalmyrza
-                </div>
-                <div class ="team-prof">Website Developer</div>
-                <div  class ="team-text">
-                    <p>The designer of the elders with meat dishes, the initiator of the creation of a multi-page website.</p>
-                </div>
-            </div>
-            <div class ="team-item">
-                <img class ="team-photo" src="images/Lyailya.png"    alt="">
-                <div class ="team-name">Dzhumagulova Lyailya</div>
-                <div class ="team-prof">Website Developer</div>
-                <div  class ="team-text">
-                    <p>Development of a corporate logo, also a home page and an instagram page manager</p>
-                </div>
-            </div>
-            <div class ="team-item">
-                <img class ="team-photo" src="images/Ermek1.png"  height= "270"   weight ="270" alt="">
-                <div class ="team-name"> Beysenbenov Ermek
-                </div>
-                <div class ="team-prof">Website Developer</div>
-                <div  class ="team-text">
-                    <p>Creating a page with desserts, the author of the title and the ideological inspirer.</p>
+    <!---/Works --->
+
+    <!--Team---->
+    <div class="team">
+        <div class="container">
+
+            <div class="team-inner">
+                <div class="row">
+                    <div class="team-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <img class="team-photo" src="images/Bahtiar.png" height="270" weight="270" alt="">
+                        <div class="team-name">Baktiyar Khalmyrza
+                        </div>
+                        <div class="team-prof">Website Developer</div>
+                        <div class="team-text">
+                            <p>The designer of the elders with meat dishes , the initiator of the creation of a multi -page website.</p>
+                        </div>
+
                     </div>
-                </div>
-                <div class ="team-item">
-                    <img class ="team-photo" src="images/Meirzhan.png" height= "270"   weight ="270" alt="">
-                    <div class ="team-name">Meirzhan Boribai </div>
-                    <div class ="team-prof">
-                        Website Developer
+
+                    <div class="team-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <img class="team-photo" src="images/Lyailya.png" alt="">
+                        <div class="team-name">Dzhumagulova Lyailya</div>
+                        <div class="team-prof">Website Developer</div>
+                        <div class="team-text">
+                            <p>Development of a corporate logo, also a home page and an instagram page manager</p>
+                        </div>
+
                     </div>
-                    <div  class ="team-text">
-                        <p>Creator of the page with vegetarian dishes, author of the icon.</p>
+
+                    <div class="team-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <img class="team-photo" src="images/Ermek1.png" height="270" weight="270" alt="">
+                        <div class="team-name"> Beysenbenov Ermek </div>
+                        <div class="team-prof">Website Developer</div>
+                        <div class="team-text">
+                            <p>Creating a page with desserts , the author of the title and the ideological inspirer.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="team-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <img class="team-photo" src="images/Meirzhan.png" height="270" weight="270" alt="">
+                        <div class="team-name">Meirzhan Boribai </div>
+                        <div class="team-prof">Website Developer</div>
+                        <div class="team-text">
+                            <p>Creator of the page with vegetarian dishes, author of the icon.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-------Testimonials------->
-        <div class ="reviews">
-            <div class = "container">
-            <div class="reviews-item">
-                <div class ="reviews-photo">
-                    <img class ="reviews-img" src="images/g.jpg" alt="">
+    </div>
+
+    <!-------Testimonials------->
+    <section id="testimonials">
+        <div id="carouselControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h5>Marvel has released a collection of African recipes of Wakanda</h5>
+                    <img src="images/vacanda.jpg" alt="" class="testimonial-img">
+                    <em>The Official Wakanda Cookbook </em>
                 </div>
-                <div class ="reviews-contend">
-                <div class="reviews-text">"Love comes and goes, but you always want to eat"</div>
-                <div class ="reviews-autor">Jerome de Angers</div>
+
+                <div class="carousel-item">
+                    <h5 class="testimonials-text">American basketball player released black tea aged in a bourbon barrel</h5>
+                    <img class="testimonial-img" src="images/tea.jpg" alt="">
+                    <em> DIGITS Bourbon Barrel Aged Black Tea </em>
+                </div>
+
+                <div class="carousel-item">
+                    <h5 class="testimonials-text">In Italy, pasta is prepared with hand-engraved in tribute to ancient traditions</h5>
+                    <img class="testimonial-img" src="images/pasta.jpg" alt="">
+                    <em>Medallions with a stamp </em>
+                </div>
+
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </section>
+
+    <!--------Ready------------>
+    <div class="ready">
+        <div class="container">
+            <h3 class="ready-title">Are you ready to start?</h3>
+            <div class="ready-text">
+                <p>Make your first dish today</p>
+
             </div>
         </div>
     </div>
-</div>
-<!--------Ready------------>
-<div class ="ready">
-    <div class="container">
-        <h3 class ="ready-title">Are you ready to start?</h3>
-        <div class ="ready-text">
-            <p> Make your first dish today</p>
+
+    <!---Footer---->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-block">
+                    <h4 class="footer-title">Location</h4>
+                    <address class="footer-address">
+                    <div >Nur-Sultan,EXPO Business Center, block C.1.</div>
+                    <div>Kazakhstan, 010000</div>
+                </address>
+
+                </div>
+            </div>
         </div>
-</div>
-</div>
-<!---Footer---->
-<footer class="footer">
-    <div class ="container">
-        <div class=footer-inner">
-        <div class ="footer-block">
-            <h4 class="footer-title">Location</h4>
-            <address class ="footer-address">
-                <div>Nur-Sultan,EXPO Business Center, block C.1.</div>
-        <div>
-            Kazakhstan, 010000</div>
-        </address>
-    </div>
-    </div>
-    </div>
-</footer>
-<div class ="copyright">
-    <div class="container">
-        <div class="copyright-text">
-            <div>Made with love by </div>
-            <div>the WEB.2022 team</div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright-text">
+                <div>Made with love by </div>
+                <div>the WEB.2022 team</div>
             </div>
         </div>
     </div>
-    </body>
+</body>
+
 </html>
