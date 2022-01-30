@@ -1,134 +1,164 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?
-    family=Cardo:400i|Open*Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/319659cf87.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--CSS-->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/chef%20(1).png">
+    <!---Device--->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--Bootstrap Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
     <title>NaMenu</title>
+    <link rel="icon" href="fas fa-book-open">
 </head>
+
 <body>
-<header class="header">
-    <div class="container">
-        <div class ="header_inner">
-            <div class ="header_logo">
-                <img src ="images/chef%20(1).png" alt="">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <a class="navbar-brand" href="#"> <i class="fas fa-book-open"></i> NaMenu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="meat_dishes.html">Meat Dishes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deserts.html">Desserts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Vegetarian</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!----intro--->
+    <div class="intro">
+        <div class="container">
+            <div class="intro-inner">
+                <h1 class="intro-title">Vegan</h1>
+                <h1 class="intro_subtitle">"Discover our range of delicious vegan recipes. From veggie-packed mains and vegan party food to dairy-free desserts, we've got everything you need for a plant-based feast"</h1>
             </div>
-            <nav class ="nav">
-                <a class ="active" href="index.html">Home</a>
-                <a class ="nav-link" href="contact.html">Contact</a>
-                <a class ="nav-link" href='meat_dishes.html'>Meat dishes</a>
-                <a class ="nav-link" href='deserts.html'>Desserts</a>
-                <a class ="nav-link" href='vegans.html'>Vegetarian</a>
-            </nav>
         </div>
     </div>
-</header>
-<!----intro--->
-<div class ="intro">
-    <div class="container">
-        <div class ="intro-inner">
-            <h1 class="intro-title">Vegan</h1>
-            <h1 class ="intro_subtitle">"Discover our range of delicious vegan recipes. From veggie-packed mains and vegan party food to dairy-free desserts, we've got everything you need for a plant-based feast"</h1>
+
+    <!--Works--->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/Vegan-Jambalaya-Recipe-feature-1.jpg" height="350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Vegan jambalaya</div>
+                    <div class="works-text">Enjoy a delicious plant-based dinner with this vegan rice and bean one-pot. It's packed with all five of your 5-a-day, as well as iron, vitamin C and fibre.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/vegan-sausage-rolls-tray.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Vegan sausage rolls</div>
+                    <div class="works-text">Pack a picnic, or deck out a buffet table with these moreish vegan sausage rolls, made with mushrooms, brown rice miso, mustard and sage</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/Satay_sweet_potato.jpg.opdownload" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Satay sweet potato curry</div>
+                    <div class="works-text">Cook this tasty vegan curry for an exotic yet easy family dinner. With spinach and sweet potato, it boasts two of your five-a-day and it’s under 400 calories.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/загружено.jpg" height="350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Vegan kale pesto pasta</div>
+                    <div class="works-text">Whizz up kale, pumpkin seeds, basil and garlic to make this easy kale pesto. It's perfect stirred through wholemeal spaghetti for a healthy vegan meal</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/eating-vegan-chili-cheese-fries.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Vegan bean chilli fries</div>
+                    <div class="works-text">Treat family and friends to Mexican-inspired loaded fries. This plant-based dish is great for entertaining, whether for a movie night or party.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/Cauliflower-pilaf-b9a24c5.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Vegan traybake recipes</div>
+                    <div class="works-text">Save on the washing-up with our easy plant-based traybakes. Tuck into comforting veg gratins, sides of roasties or our vegan chocolate cake.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/french-toast-b778f48-scaled.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Burnt leeks on toast with romesco</div>
+                    <div class="works-text">Sweet when blanched, slightly bitter when burned, these perfectly balanced leeks atop crusty ciabatta make an easy, healthy, vegan starter.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/celeriac-pancetta-and-hazelnut-soup.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Celeriac, hazelnut & truffle soup</div>
+                    <div class="works-text">Rustle up this healthy vegan celeriac and hazelnut soup as a starter on Christmas Day. Truffle oil adds a bit of luxury, or leave it out for a simple supper on a winter's night.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/IMG_4426-6.jpg" height="350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Tangy roast pepper & walnut dip</div>
+                    <div class="works-text">A nice and spicy partner to pre-dinner drinks. Great with some toasted pitta for dipping.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/Seitan_Fried.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Kentucky fried seitan</div>
+                    <div class="works-text">Use a tofu substitute to make this addictive crispy fried ‘chicken’. Try this delicious vegan party food with BBQ sauce, or in a bun with salad or coleslaw</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/curried-squash-lentil-soup-1581509062.jpg" height=" 350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Curried squash, lentil & coconut soup</div>
+                    <div class="works-text">Flavour up butternut squash with Indian spices for this warming and healthy vegetarian soup.</div>
+                </div>
+            </div>
+            <div class="works-item col-lg-3 col-md-4 col-sm-6 col-xl-3 col-xxl-3 col-12">
+                <img class="works-photo" src="vegans/Banh_mi.jpg" height="350" alt="">
+                <div class="works-contend">
+                    <div class="works-title">Vegan banh mi</div>
+                    <div class="works-text">Make this decadent vegan sandwich using veggies and hummus with an Asian dressing and hot sauce all stuffed inside a baguette. Great for a filling lunch.</div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<!--Works--->
-<div class ="works">
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/Vegan-Jambalaya-Recipe-feature-1.jpg" height="350" alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Vegan jambalaya</div>
-            <div class="works-text">Enjoy a delicious plant-based dinner with this vegan rice and bean one-pot. It's packed with all five of your 5-a-day, as well as iron, vitamin C and fibre.</div>
+
+    <!---Footer---->
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright-text">
+                <div>Made with love by </div>
+                <div>the WEB.2022 team</div>
+            </div>
         </div>
     </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/vegan-sausage-rolls-tray.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Vegan sausage rolls</div>
-            <div class="works-text">Pack a picnic, or deck out a buffet table with these moreish vegan sausage rolls, made with mushrooms, brown rice miso, mustard and sage</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/Satay_sweet_potato.jpg.opdownload" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Satay sweet potato curry</div>
-            <div class="works-text">Cook this tasty vegan curry for an exotic yet easy family dinner. With spinach and sweet potato, it boasts two of your five-a-day and it’s under 400 calories.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/загружено.jpg" height="350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Vegan kale pesto pasta</div>
-            <div class="works-text">Whizz up kale, pumpkin seeds, basil and garlic to make this easy kale pesto. It's perfect stirred through wholemeal spaghetti for a healthy vegan meal</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/eating-vegan-chili-cheese-fries.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Vegan bean chilli fries</div>
-            <div class="works-text">Treat family and friends to Mexican-inspired loaded fries. This plant-based dish is great for entertaining, whether for a movie night or party.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/Cauliflower-pilaf-b9a24c5.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Vegan traybake recipes</div>
-            <div class="works-text">Save on the washing-up with our easy plant-based traybakes. Tuck into comforting veg gratins, sides of roasties or our vegan chocolate cake.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/french-toast-b778f48-scaled.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Burnt leeks on toast with romesco</div>
-            <div class="works-text">Sweet when blanched, slightly bitter when burned, these perfectly balanced leeks atop crusty ciabatta make an easy, healthy, vegan starter.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/celeriac-pancetta-and-hazelnut-soup.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Celeriac, hazelnut & truffle soup</div>
-            <div class="works-text">Rustle up this healthy vegan celeriac and hazelnut soup as a starter on Christmas Day. Truffle oil adds a bit of luxury, or leave it out for a simple supper on a winter's night.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/IMG_4426-6.jpg" height="350" alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Tangy roast pepper & walnut dip</div>
-            <div class="works-text">A nice and spicy partner to pre-dinner drinks. Great with some toasted pitta for dipping.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/Seitan_Fried.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Kentucky fried seitan</div>
-            <div class="works-text">Use a tofu substitute to make this addictive crispy fried ‘chicken’. Try this delicious vegan party food with BBQ sauce, or in a bun with salad or coleslaw</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/curried-squash-lentil-soup-1581509062.jpg" height=" 350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Curried squash, lentil & coconut soup</div>
-            <div class="works-text">Flavour up butternut squash with Indian spices for this warming and healthy vegetarian soup.</div>
-        </div>
-    </div>
-    <div class ="works-item">
-        <img class ="works-photo"src="vegans/Banh_mi.jpg" height="350"alt="">
-        <div class ="works-contend">
-            <div class ="works-title">Vegan banh mi</div>
-            <div class="works-text">Make this decadent vegan sandwich using veggies and hummus with an Asian dressing and hot sauce all stuffed inside a baguette. Great for a filling lunch.</div>
-        </div>
-    </div>
-</div>
-<!---Footer---->
-<div class ="copyright">
-    <div class="container">
-        <div class="copyright-text">
-            <div>Made with love by </div>
-            <div>the WEB.2022 team</div>
-        </div>
-    </div>
-</div>
 </body>
+
 </html>
