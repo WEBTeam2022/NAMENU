@@ -158,6 +158,16 @@ p {
     color: #fff;
 }
 
+.video-links {
+    color: #fff;
+    font-size: 14px;
+}
+
+.video-links:hover {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    text-decoration: none;
+}
 
 /*Team*/
 
