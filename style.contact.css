@@ -64,6 +64,46 @@
     margin-bottom: 60px;
 }
 
+@media screen and (max-width: 768px) {
+    .intro_subtitle {
+        font-size: 16px;
+        color: white;
+        line-height: 1.5;
+        margin-bottom: 60px;
+    }
+    .intro-title {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .intro-title1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.1;
+        margin: 0 0 30px;
+    }
+    .intro {
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 100px;
+        background: url("images/w8.jpg") center no-repeat;
+        background-size: cover;
+    }
+    .intro-inner {
+        width: 100%;
+        max-width: 970px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
 
 /*Features*/
 
