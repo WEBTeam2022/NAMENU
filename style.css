@@ -149,7 +149,6 @@ p {
 /*Features*/
 
 #features {
-    display: flex;
     padding: 3% 15%;
     text-align: center;
 }
