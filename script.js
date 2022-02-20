@@ -19,7 +19,3 @@ function ScrollUp() {
         else clearInterval(t)
     }, 1);
 }
-
-let numOfWorksItem = querySelectorAll('.works-photo').length
-console.log(numOfWorksItem)
-querySelectorAll('.works-item').animated('bounceInLeft', 'fadeOut')
